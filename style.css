@@ -1,0 +1,35 @@
+/* .carousel, .carousel-inner, .slide, .active {
+    height: 93.5vh;
+} */
+
+
+.carousel-inner, .carousel-item, .carousel-item.active {
+    height: 93.5vh;
+}
+
+
+
+.carousel-item, .carousel-item.active {
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center center;
+    
+}
+
+#location-pic {
+    width: 100%;
+    height: auto;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    
+
+    
+}
+
