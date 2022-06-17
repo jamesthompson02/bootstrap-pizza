@@ -1,21 +1,19 @@
-
 @media screen and (min-width: 0px) {
     /* .carousel, .carousel-inner, .slide, .active {
     height: 93.5vh;
     } */
 
 
-    /* .carousel-inner, .carousel-item, .carousel-item.active {
-        height: 93.5vh;
-    } */
+    .carousel-inner, .carousel-item, .carousel-item.active {
+        height: calc(100vh - 56px);
+    }
 
 
 
-    .carousel-item, .carousel-item.active {
-        background-size: cover;
-        background-repeat: repeat;
-        background-position: center center;
-        
+    .carousel-item > img, .carousel-item.active > img {
+        object-fit: cover;
+        object-position: center;
+        height: calc(100vh - 56px);
     }
 
     #location-pic {
@@ -51,5 +49,6 @@
 
 }
 
-
-
+a {
+    overflow-wrap: break-word;
+}
